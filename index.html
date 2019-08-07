@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="font/flaticon.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,400,700|Work+Sans:300,400,700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+       <div class="wrapper">
+           <div class="header">
+               <img src="images/logo.png" alt="">
+               <span><h1>WEATHER</h1> <p><script type='text/javascript'>
+                var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+                var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
+                var date = new Date();
+                var day = date.getDate();
+                var month = date.getMonth();
+                var thisDay = date.getDay(),
+                    thisDay = myDays[thisDay];
+                var yy = date.getYear();
+                var year = (yy < 1000) ? yy + 1900 : yy;
+                document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
+            </script></p></span>
+           </div>
+           <div class="content">
+               <div class="day">
+                <a>Today</a>
+                <a>Tuesday</a>
+                <a>Wednesday</a>
+                <a>Friday</a>
+                <a>Saturday</a>
+                <a>Monday</a>
+                <a>Sunday</a>
+            </div>
+                <div class="cloud_icon">
+            <i class="flaticon-016-sun"></i>
+            <i class="flaticon-010-raining"></i>
+            <i class="flaticon-011-cloudy"></i>
+            <i class="flaticon-012-storm"></i>
+            <i class="flaticon-005-storm-1"></i> 
+            <i class="flaticon-009-wind-1"></i>
+            <i class="flaticon-015-cloud"></i>
+            <div class="celcius">
+                <a id="1">30 C</a>
+                <a id="2">19 C</a>
+                <a id="3">27 C</a>
+                <a id="4">30 C</a>
+                <a id="5">34 C</a>
+                <a id="6">12 C</a>
+                <a id="7">11 C</a>
+            </div>
+           </div>
+           <div class="card">
+                <img id="navigasi" src="images/navigation.png" alt="">
+            <h1>16 <span id="ukur"> km/h </span></h1>
+            <span id="light">Light</span> <br> <span id="now">Now.From East</span>
+        </div>
+        </div>
+    </div>
+           <div class="box">
+           <div class="box_top">
+                <marquee>Sidoarjo, Prambon Regency East Java </marquee>
+                <i class="flaticon-compass"> <a href="index.html#wind"></a> </i>
+           </div>
+           <div class="rounded">
+                <img src="images/round.png" alt="">
+            </div>
+            <div class="ket">
+                <span id="vis">Visibility</span><br><span id="visibility">14 km</span>
+                
+                <span id="uv">UV Index</span><br><span id="uv2">10</span>
+            </div>
+           </div>
+           <div class="twosun">
+                <!-- <img src="images/twosun.png" alt=""> -->
+                <div class="sunrise">
+                    <span id="set">Sunset</span> <br> <span id="time">17:30</span>
+                    </div>
+                    <div class="sunset">
+                            <span id="rise">Sunrise</span> <br> <span id="time2">04:30</span>
+                        </div>
+            </div>
+       </div>
+            
+            
+        </div>
+       </div>
+    </body>
+</html>

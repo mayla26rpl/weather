@@ -1,0 +1,322 @@
+:root{
+    --backgroundBody: #F1FCFF;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(../images/bg2edit.jpg) fixed;
+    background-size: cover;
+    
+    
+}
+.header{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.header img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 24px;
+    top: 29.25px; 
+}
+marquee{
+    color: #FFFFFF;
+    font-family: 'Work Sans, sans-serif';
+    font-size: 25px;
+}
+span{
+    position: absolute;
+    width: 120px;
+    height: 77.01px;
+    left: 115px;
+    top: 45px;
+}
+span h1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: #2E2C2C;    
+}
+.box{
+    position: absolute;
+    width: 520px;
+    height: 525px;
+    left: 846px;
+    right: 0px;
+    top: 0px;
+    background: transparent;
+}
+.box img{
+    position: absolute;
+    width: 250px;
+    height: 225px;
+    top: 120px;
+    margin-left: 100px;
+
+}
+.rounded:hover{
+    transform: translate3d();
+    cursor: pointer;
+    
+}
+.ket{
+    top: 100px;
+}
+.box span{
+    position: absolute;
+    width: 103.1px;
+    height: 20px;
+    top: 520px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.box_top{
+    margin-top: 25px;
+}
+.box_top a{
+    color: #F1FCFF;
+    font-family: 'Work Sans', sans-serif;
+    padding-left: 15px;     
+    margin-bottom: -40px;
+}
+.celcius{
+    padding-top: 30px;
+    margin-left: 8px;
+}
+.celcius a{
+    padding: 29px;  
+    font-family: 'Montserrat',sans-serif;
+
+}
+#uv{
+    margin-left: 215px;
+    top: 380px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+#vis{
+    margin-left: -90px;
+    top: 380px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+#visibility{
+    position: absolute;
+    top: 440px;
+    margin-top: -7px;
+    left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 61px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    
+}
+#uv2{
+    margin-left: 250px;
+    margin-top: -7px;
+    position: absolute;
+    top: 440px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 61px;
+
+    color: #FFFFFF;
+}
+.cloud_icon{
+    position: absolute;
+    width: 673px;
+    height: 123px;
+    left: 100px;
+    top: 230px;
+}
+.cloud_icon i{
+  display: inline;
+  padding: 15px;
+  top: 200px;
+}
+.flaticon-011-cloudy{
+    color: #C67700;
+}
+.flaticon-016-sun{
+    color: rgb(255, 251, 0);
+}
+.flaticon-010-raining{
+    color: #1162FF;
+}
+.flaticon-005-storm-1{
+    color: rgb(255, 196, 0);
+}
+.flaticon-009-wind-1{
+    color: #313131;
+}
+.flaticon-015-cloud{
+    color: #1162FF;
+}
+.flaticon-search{
+    color: white;
+}
+.flaticon-compass{
+    color: white;
+}
+.wind-speed{
+    background-color: var(--backgroundBody);
+    min-height: 820px;
+}
+.card{
+    position: absolute;
+    width: 260px;
+    height: 200px;
+    left: 125px;
+    top: 430px;
+    background: #EDA539;
+    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    opacity: 0.9;
+}
+#navigasi{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    left: -10px;
+    top: -30px;
+}
+.card h1{
+    position: absolute;
+    width: 296px;
+    height: 224px;
+    left: 90px;
+    top: -15px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 211px;
+    text-indent: 3px;
+
+    color: #FFFFFF;
+
+}
+#ukur{
+    position: absolute;
+    left: 75px;
+    top: 25px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 211px;
+    text-indent: 3px;
+
+    color: #FFFFFF;
+}
+#light{
+    position: absolute;
+    left: 40px;
+    top: 140px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-indent: 3px;
+
+    color: #000000;
+}
+#now{
+    position: absolute;
+    left: 40px;
+    top: 160px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    text-indent: 3px;
+    color: #000000;
+}
+.day a{
+    position: relative;
+    font-family: Montserrat;
+    left: 120px;
+    top: 180px;
+    padding: 12px;  
+}
+#suhu a{
+    padding: 46px;
+    font-family: Montserrat;
+}
+
+#set{
+    position: absolute;
+    left: 870px;
+    top: 560px;
+
+    font-family: Montserrat;
+    font-style: bold;
+    font-size: 20px;
+    text-indent: 3px;
+
+    color: #FFFF;
+}
+#rise{
+    position: absolute;
+    left: 1200px;
+    top: 560px;
+
+    font-family: Montserrat;
+    font-style: bold;
+    font-size: 20px;
+    text-indent: 3px;
+
+    color: #FFFF;
+}
+#time{
+    position: absolute;
+    left: 870px;
+    top: 610px;
+
+    font-family: Montserrat;
+    font-style: bold;
+    font-size: 25px;
+    text-indent: 3px;
+
+    color: #FFFF;
+}
+#time2{
+    position: absolute;
+    left: 1200px;
+    top: 610px;
+
+    font-family: Montserrat;
+    font-style: bold;
+    font-size: 25px;
+    text-indent: 3px;
+
+    color: #FFFF;
+}
